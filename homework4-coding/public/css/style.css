@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #FCE1A9;
+}
+
+header {
+	padding: 40px;
+	font-weight: bold;
+}
+
+header h1 {
+	text-align: center;
+}
+
+.contents {
+	width: 700px;
+	margin: 20px auto;
+	font-weight: lighter;
+	border: 1px solid black;
+	border-radius: 20%;
+	background-color: #626266;
+	color: white;
+}
+
+.contents:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.para1 {
+	float: left;
+	width: 33%;
+	padding: 40px 40px 0 40px;
+	border-right: 1px solid white;
+}
+
+.para2 {
+	float: left;
+	width: 33%;
+	padding: 40px;
+	height: 240px;
+}
+
+.para3 {
+	margin-top: 100px;
+	float: left;
+	width: 33%;
+	padding: 0 40px 40px 40px;
+	border-left: 1px solid white;
+}
+
+footer {
+	clear: left;
+	padding: 20px;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center
+}
+
+footer a {
+	color: grey;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: lightgrey;
+}
+
+/*** CONTACT FORM STYLING ***/
+
+.form form {
+	padding: 10px;
+}
+
+.form h2 {
+	margin: 10px;
+}
+
+.form input {
+	margin: 10px;
+	width: 50%;
+	display: inline-block;
+}
+
+.form .text-area {
+	width: 50%;
+	margin: 10px 0 0 10px;
+}
+
+.form label {
+	display: inline-block;
+	width: 150px;
+}
+
+.form .submit {
+	margin: 20px 0 0 0;
+	width: 150px;
+	padding: 10px;
+	color: white;
+	background-color: grey;
+}
+
+/*** THANK YOU MESSAGE STYLING ***/
+
+#thank-you-message {
+	text-align: center;
+}
+
